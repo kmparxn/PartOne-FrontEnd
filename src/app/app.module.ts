@@ -24,6 +24,13 @@ import { DialogComponent } from './components/dialog/dialog/dialog.component';
 import { DashboardComponent } from './components/dashboard/dashboard/dashboard.component';
 import { TableComponent } from './components/table/table/table.component';
 import {NgxMaterialTimepickerModule} from 'ngx-material-timepicker';
+import { LoginComponent } from './pages/login/login.component';
+import { RegisterComponent } from './pages/register/register.component';
+import { DashComponent } from './pages/dash/dash.component';
+import { FooterComponent } from './layouts/footer/footer.component';
+import { HeaderComponent } from './layouts/header/header.component';
+import { SidebarComponent } from './layouts/sidebar/sidebar.component';
+import { UserprofileComponent } from './pages/userprofile/userprofile.component';
 
 
 @NgModule({
@@ -31,7 +38,14 @@ import {NgxMaterialTimepickerModule} from 'ngx-material-timepicker';
     AppComponent,
     DashboardComponent,
     TableComponent,
-    DialogComponent
+    DialogComponent,
+    LoginComponent,
+    RegisterComponent,
+    DashComponent,
+    FooterComponent,
+    HeaderComponent,
+    SidebarComponent,
+    UserprofileComponent
   ],
   imports: [
     BrowserModule,
